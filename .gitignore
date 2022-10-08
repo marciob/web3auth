@@ -1,15 +1,46 @@
-# Created by https://www.toptal.com/developers/gitignore/api/solidity,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=solidity,node
+# Created by https://www.toptal.com/developers/gitignore/api/solidity,nextjs,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=solidity,nextjs,node
+
+### NextJS ###
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
 
 ### Node ###
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 lerna-debug.log*
-.pnpm-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -78,10 +109,6 @@ web_modules/
 
 # dotenv environment variable files
 .env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -213,4 +240,4 @@ dist
 
 # yarn v2
 
-# End of https://www.toptal.com/developers/gitignore/api/solidity,node
+# End of https://www.toptal.com/developers/gitignore/api/solidity,nextjs,node
